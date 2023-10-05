@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>About</title>
+
+
+    <style>
+        p{
+            font-family: montserrat, sans-serif;
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(27, 21, 78);
+            padding-right: 80px;
+            padding-left: 80px;
+            padding-bottom: 500px;
+            padding-top: 50px;
+        }
+        
+        .image-container{
+            width:1000px;
+            height:450px;
+            padding-left:70px;
+            display: flex;
+            flex-direction: row;
+            flex:1;
+            justify-content: space-between;
+        }
+        .image-container img{
+            width:100%;
+            height:100%;  
+            object-fit: cover;
+            border-radius: 10px;
+            border-width: 5px;
+            border-style: solid;  
+            border-color: rgb(88, 161, 230);
+            border-style:double;
+        }
+        
+        .introduction-title{
+            color: rgb(208, 238, 250);
+            font-size: 50px;
+            font-weight: 500;
+            margin-bottom: 70px;
+            text-shadow: 3px 3px 10px black;
+        }
+        .introduction-description{
+            line-height: 26px;
+            font-size: 18px;
+            color:white;
+            text-decoration:solid;
+            margin-bottom: 40px;
+        }
+        .hello-there{
+            color: rgb(250, 199, 207);
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .name{
+            color: rgb(224, 83, 104);
+            font-weight: 700;
+        }
+        .myname{
+            font-style: italic;
+            font-weight: 700;
+            font-size:100px;
+            color: rgb(235, 107, 247);
+            margin-top: 100px;
+        }
+        .myschool{
+            margin-bottom: 200px;
+        }
+        .rana{
+            font-style: italic;
+            font-weight: 500;
+            font-size:100px;
+            color: rgb(240, 240, 105);
+        }
+        .rana1{
+            font-style: italic;
+            font-weight: 500;
+            font-size:20px;
+            color: rgb(240, 240, 105);
+        }
+        .myname1{
+            font-style: italic;
+            font-weight: 700;
+            font-size:20px;
+            color: rgb(235, 107, 247);
+
+        }
+        .who-is-nidhi{
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+            font-style:initial;
+            margin-bottom: 20px;
+            margin-top: 80px;
+        }
+        .who-name{
+            color: rgb(235, 107, 247);
+        }
+        .briefdescription,.about-section{
+            font-size:20px;
+            color:rgba(255, 255, 255, 0.829);
+        }
+        .work{
+            color: rgb(255, 255, 109);
+        }
+        .creation{
+            margin-bottom: 12px;
+        }
+        .briefdescription p{
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <p class="introduction-title">About Me</p>
+                <p class="myname">
+                    NIDHI <span class="rana">RANA</span>
+                </p>
+                <p class="myschool">
+                    <span class="rana1">Student at VSIT,</span> <span class="myname1">IPU University.</span>
+                </p>
+                <p class="introduction-description"><span class="hello-there">Hello there!</span> My name is <span class="name">Nidhi Rana</span>
+                    and I design websites. I am from <span class="name">Delhi, India</span>
+                    and I have a hardcore obsession with coding.
+                    I am an <span class="name">18 year old</span>, a student and a <span class="name">web developer</span> who can make beautiful
+                    and creative websites for you with the touch
+                    of modern aesthetics and astonishing layouts.
+                    I also know few programming languages like C,
+                    C++ and python with current focus on learning java.
+                </p>
+    </div>
+    <div class="image-container"><img src="assets/blackandwhite.jpg">
+        <img src="assets/picture2.jpg">
+    </div>
+            <div>
+                <p class="who-is-nidhi">Who is <span class="who-name">Nidhi?</span></p>
+                <p class="briefdescription">Nidhi Rana is a web developer and a programmer from howdy and rowdy- Delhi, India.</p>
+                <p class="about-section">Educated from a well-reputed school and university
+                    ,she has a lot of passion and drive for learning and creating.
+                    She is determined to be faithful towards her vision
+                    of becoming a senior web developer and a brand designer
+                    and she's open to learn and grab any skill and opportunity
+                    headed towards her to make this dream come true.
+                    She also loves to pet cats, nurture plants, read books and do a lot of coding in her free time. 
+                </p>
+                <p class="who-is-nidhi">Let's look at her <span class="work">work</span> !</p>
+                <div class="briefdescription">
+                    <p class="creation">I have created:</p>
+                    <p>
+                    - A project on recreation of famous website buttons.
+                    </p>
+                <p>
+                    - A project on learning how to use text styles.
+                </p>
+                <p>
+                    - A YouTube clone.
+                </p></div>
+                
+            </div>
+    <div class="image-container" >
+        <img src="assets/colored.jpg">
+    </div>
+</body>
+</html>

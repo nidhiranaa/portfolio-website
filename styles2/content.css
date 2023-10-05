@@ -1,0 +1,133 @@
+
+.introduction{
+    margin-top:200px ;
+    margin-left: 30px;
+    margin-bottom: 500px;
+
+}
+
+.intro-title{
+    color: rgb(208, 238, 250);
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.pronouns{
+    font-style: italic;
+    font-weight: 500;
+    font-size:50px;
+    color: rgb(235, 107, 247);
+}
+.pronouns2{
+    font-style: italic;
+    font-weight: 500;
+    font-size:50px;
+    color: rgb(240, 240, 105);
+}
+
+.intro-description{
+    width:600px;
+    line-height: 26px;
+    font-size: 18px;
+    color:white;
+    text-decoration:solid;
+    margin-bottom: 40px;
+}
+.buttondiv{
+    display: inline-block;
+    align-items: center;
+}
+
+.knowmore{
+    padding: 9px 15px;
+    background-color: rgb(141, 15, 135) ;
+    border: none;
+    color: white;
+    vertical-align: bottom;
+    cursor:pointer;
+    transition: box-shadow 0.3s;
+}
+.knowmore:hover{
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.15);
+    background-color: rgb(255, 157, 242);
+    color: black;
+}
+
+.linktosite{
+    width: 16px;
+    background-color: rgb(248, 202, 242);
+    margin-left: 10px;
+    padding: 7px 7px;
+    border: none;
+    border-radius: 100px;
+    cursor:pointer;
+}
+.linktosite:hover{
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.15);
+    background-color: rgb(141, 15, 135);
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgrey;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    column-gap: 0px;
+    margin-bottom: 400px;
+}
+.my-profile{
+    width:550px;
+    margin-left: 12px;
+    border-width: 5px;
+    border-style: solid;  
+    border-color: rgb(49, 26, 151);
+    border-style:double ;
+    border-radius: 60px;
+}
+.grid p{
+    margin-left: 015px;
+}
+
+.who-is-nidhi{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-style:initial;
+    margin-bottom: 40px;
+}
+.who-name{
+    color: rgb(235, 107, 247);
+}
+
+.briefdescription ,.about-section{
+    font-size:20px;
+    width:650px;
+    color:rgba(255, 255, 255, 0.829);
+}
+.briefdescription{
+    margin-bottom: 20px ;
+}
+.align-in-centre{
+    text-align: center;
+}
+.social-media{
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 30px;
+    color: white;
+    margin-right:30px;
+    margin-left: 12px;
+}
+.social-name{
+    color: rgb(40, 186, 243);
+}
+.sociallinks a{
+    color:rgb(235, 107, 247) ;
+    font-size:20px;
+    margin-right: 45px;
+}
+.sociallinks{
+    display: inline-block;
+}

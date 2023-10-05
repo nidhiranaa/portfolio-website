@@ -1,0 +1,35 @@
+.header{
+    height:55px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    z-index: 100;
+    top:0;
+    right:0;
+    left:0;
+    z-index:100;
+    position: fixed;
+    background-color: rgb(27, 21, 78);;
+
+}
+
+.middle-section{
+    flex: 1;
+    width:500px;
+    
+    
+}
+
+.left-section div{
+    margin-left: 13px;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    width:400px;
+}
+
+.logo-modify{
+    color:rgb(181, 228, 243);
+}
+
+

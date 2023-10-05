@@ -1,0 +1,28 @@
+.sidebar img{
+    width:20px;
+    background-color: white;
+    border-radius: 90px;
+    padding:4px 7px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.sidebar{
+    width:70px;
+    height:800px;
+}
+.sidebarlink{
+    margin-bottom: 70px;
+    margin-right:20px;
+}
+.sidebarlink a{
+    text-decoration:none;
+    font-size: 20px;
+    color: rgb(202, 80, 186);
+    font-weight: 500px;
+}
+
+.sidebarlink a:hover{
+    color: white;
+    text-decoration: underline;
+}
